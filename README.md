@@ -1,7 +1,8 @@
 # VS CODE SOLARIZED GO
 ## Customized Solarized Theme for GO syntax.
    
-   Theme customized to GO syntax for better readability
+  * Distinct Highlights for ***functions, keywords, types, imports, packages***
+  * Better ***readability***
    
    * Other Solarized:
    
