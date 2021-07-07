@@ -1,5 +1,5 @@
 # VS CODE SOLARIZED GO
-## Special Solarized Theme customized for GO syntax.
+## Customized Solarized Theme for GO syntax.
    
    Theme customized to GO syntax for better readability
    
