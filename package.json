@@ -1,0 +1,35 @@
+{
+    "name": "solarized-go",
+    "displayName": "Solarized GO",
+    "description": "Solarized Theme for GO with better syntax highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "author": {
+		"name": "Raghunathan Chandramoule"
+	},
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/KrishKayc/vs-code-solarized-go"
+	},
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "solarized-go",
+                "uiTheme": "vs-dark",
+                "path": "./themes/solarized-go-color-theme.json"
+            }
+        ],
+        "grammars": [
+			{
+				"path": "./syntaxes/injection.json",
+				"scopeName": "package-types.injection",
+				"injectTo": ["source.go"]
+			  }
+		]
+    }
+}

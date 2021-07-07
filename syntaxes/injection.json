@@ -1,0 +1,37 @@
+{
+    "scopeName": "package-types.injection",
+    "injectionSelector": "R:source",
+    "patterns": [
+      {
+        "include": "#package-types"
+      }
+    ],
+    "repository": {
+      "package-types": {
+          "patterns":[
+            {
+                "comment": "Types specified with Packages",
+                "match": "([\\w.]+\\.)(\\w+[\\s{,:)])",
+                "captures": {
+                    "1": {
+                        "patterns": [
+                            {
+                                "match": "\\w+",
+                                "name": "support.package.name.go"
+                            }
+                        ]
+                    },
+                    "2": {
+                      "patterns": [
+                          {
+                              "match": "\\w+",
+                              "name": "support.package.type.name.go"
+                          }
+                      ]
+                  }
+                }
+            }
+          ]
+      }
+    }
+  }
