@@ -1,13 +1,22 @@
-# VS-CODE_SOLARIZED_GO
-## Solarized theme for GO with better syntax highlight
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# VS CODE SOLARIZED GO
+## Special Solarized Theme customized for GO syntax.
+   
+   Theme customized to GO syntax for better readability
+   
+   * Other Solarized:
+      
+   * Solarized GO:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## Better syntax highlighting over default plugin
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+   Default plugin doesn't highlight some important stuffs like '**package**' usages. Eg: ***model***.Student
+   
+   New TextMate Scopes injected for package usage.
+   
+   * Syntax Highlights with default Plugin:
 
-**Enjoy!**
+
+   * Syntax Highlights with Solarized GO:
+
+
+
