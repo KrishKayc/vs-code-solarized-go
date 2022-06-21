@@ -5,6 +5,12 @@
 		"editor.background": "#0d252e3f",
 		"activityBar.background": "#60c9f332",
 		"sideBar.background": "#17557034",
+		"editorBracketHighlight.foreground1": "#93ccccba",
+		"editorBracketHighlight.foreground2": "#93ccccba",
+		"editorBracketHighlight.foreground3": "#abaedfe0",
+		"editorBracketHighlight.foreground4": "#93ccccba",
+		"editorBracketHighlight.foreground5": "#abaedfe0",
+		"editorBracketHighlight.foreground6": "#93ccccba"
 	},
 	"tokenColors": [
 		{
